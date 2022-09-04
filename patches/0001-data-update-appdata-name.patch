@@ -1,0 +1,54 @@
+diff --git a/data/simple-scan.appdata.xml.in b/data/simple-scan.appdata.xml.in
+index 8a9846bc..3b9b11af 100644
+--- a/data/simple-scan.appdata.xml.in
++++ b/data/simple-scan.appdata.xml.in
+@@ -3,7 +3,7 @@
+   <id>simple-scan.desktop</id>
+   <metadata_license>CC0-1.0</metadata_license>
+   <project_license>GPL-3.0+</project_license>
+-  <name>Document Scanner</name>
++  <name>Network Document Scanner</name>
+   <summary>Make a digital copy of your photos and documents</summary>
+   <description>
+     <p>
+@@ -81,27 +81,6 @@
+         </p>
+       </description>
+     </release>
+-    <release date="2021-02-25" version="40.beta" type="development">
+-      <description>
+-        <p>
+-          This is an unstable release in the 40 development series,
+-          with the following changes:
+-        </p>
+-        <ul>
+-          <li>Don't repeat vendor name in the device name</li>
+-          <li>GNOME 40 consistency updates</li>
+-          <li>Fix crop size after decreasing page size</li>
+-          <li>UI fixes: change crop icon, improve layout of buttons</li>
+-          <li>Add redetect button to device list</li>
+-          <li>Add new resolution 200 DPI</li>
+-          <li>Add zero second delay for Multiple Pages from FlatBed</li>
+-          <li>Display an error, when no documents found in the feeder</li>
+-          <li>Rename 'Start again' button to 'New document'</li>
+-          <li>Fix crash on lexmark backend</li>
+-        </ul>
+-        <p>This release also updates translations.</p>
+-      </description>
+-    </release>
+     <release date="2020-10-02" version="3.38.1">
+       <description>
+         <p>
+diff --git a/po/fr.po b/po/fr.po
+index 501c216b..ca6707d1 100644
+--- a/po/fr.po
++++ b/po/fr.po
+@@ -189,7 +189,7 @@ msgstr ""
+ #: data/simple-scan.appdata.xml.in:6 data/simple-scan.desktop.in:3
+ #: data/ui/app-window.ui:454 src/app-window.vala:1558 src/app-window.vala:1832
+ msgid "Document Scanner"
+-msgstr "Numériseur de documents"
++msgstr "Numériseur de documents réseau"
+ 
+ #: data/simple-scan.appdata.xml.in:7 data/simple-scan.desktop.in:4
+ msgid "Make a digital copy of your photos and documents"
